@@ -7,7 +7,7 @@ matplotlib
 seaborn
 opencv-python-headless
 
-# Keep CPU-specific torch and torchvision for compatibility
+# Use a newer, compatible CPU-specific torch and torchvision
 --find-links https://download.pytorch.org/whl/cpu/torch_stable.html
-torch==2.1.0+cpu
-torchvision==0.16.0+cpu
+torch==2.7.0+cpu
+torchvision==0.18.0+cpu
