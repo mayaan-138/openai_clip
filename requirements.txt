@@ -8,5 +8,5 @@ torch==2.1.0+cpu
 torchvision==0.16.0+cpu
 matplotlib
 seaborn
-opencv-python
-typing-extensions
+# Use the headless version of OpenCV for better compatibility on servers
+opencv-python-headless
